@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginWindow</class>
+ <widget class="QDialog" name="LoginWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>459</width>
+    <height>342</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 10pt &quot;Noto Sans&quot;;</string>
+  </property>
+  <widget class="QPushButton" name="loginbutton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>270</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Noto Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name_entre">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>120</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Noto Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pass_entre">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>190</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Noto Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loginbutton_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>231</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 26pt &quot;Noto Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>270</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Noto Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string>cancel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="status">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>80</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 57 16pt &quot;Adwaita Sans&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
